@@ -144,6 +144,20 @@
                 "HLC_CIRQUE_TRACKPAD": "1",
                 "TARGET": "splitkb_halcyon_elora_rev2_halmak_hlc_cirque_trackpad"
             }
+        ],
+        [
+            "splitkb/kyria/rev2",
+            "default",
+            {
+                "TARGET": "splitkb_kyria_rev2_default"
+            }
+        ],
+        [
+            "splitkb/kyria/rev2",
+            "halmak",
+            {
+                "TARGET": "splitkb_kyria_rev2_halmak"
+            }
         ]
     ]
 }
