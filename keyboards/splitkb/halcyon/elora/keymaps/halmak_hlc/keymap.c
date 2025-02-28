@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
-#include "macros.h"
+#include "combos.h"
 #include "tapdance.h"
 
 #define COMBO_STRICT_TIMER
