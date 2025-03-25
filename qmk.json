@@ -158,6 +158,27 @@
             {
                 "TARGET": "splitkb_kyria_rev2_halmak"
             }
+        ],
+        [
+            "dasky/reverb",
+            "default",
+            {
+                "TARGET": "dasky_reverb_default"
+            }
+        ],
+        [
+            "dasky/reverb",
+            "halmak",
+            {
+                "TARGET": "dasky_reverb_halmak"
+            }
+        ],
+        [
+            "dasky/reverb",
+            "halmak_c",
+            {
+                "TARGET": "dasky_reverb_halmak_c"
+            }
         ]
     ]
 }

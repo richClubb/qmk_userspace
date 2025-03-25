@@ -93,3 +93,9 @@ You may also want to just add the files to your own branch if you have already s
 If you want to modify an existing keymap (from the original Kyria, Elora or an Aurora board for example). Make sure to add 10 new keys in your keymap (Look at `keyboards/splitkb/halcyon/kyria/keymaps/default_hlc` for an example).
 
 Do note that we use some quantum functions in our userspace so there may be a conflict when compiling. If you use the `_user` functions you should be fine.
+
+# Compilation Command Examples
+qmk compile -kb splitkb/kyria/rev2 -km halmak -e TARGET=test.uf2 
+
+qmk compile -kb splitkb/halcyon/elora/rev2 -km halmak_hlc -e HLC_TFT_DISPLAY=1 -e TARGET=halcyon_elora_trackpad_halmak.uf2
+
