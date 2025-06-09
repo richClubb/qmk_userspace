@@ -99,3 +99,6 @@ qmk compile -kb splitkb/kyria/rev2 -km halmak -e TARGET=test.uf2
 
 qmk compile -kb splitkb/halcyon/elora/rev2 -km halmak_hlc -e HLC_TFT_DISPLAY=1 -e TARGET=halcyon_elora_trackpad_halmak.uf2
 
+make dasky/reverb:default
+
+qmk compile -kb splitkb/kyria/rev2 -km halmak -e TARGET=test.uf2

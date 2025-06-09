@@ -6,6 +6,7 @@ const uint16_t PROGMEM combo_home[] = {KC_U, KC_D, COMBO_END};
 const uint16_t PROGMEM combo_end[]  = {KC_E, KC_O, COMBO_END};
 const uint16_t PROGMEM combo_vdl[]  = {KC_D, KC_J, COMBO_END};
 const uint16_t PROGMEM combo_vlr[]  = {KC_O, KC_I, COMBO_END};
+const uint16_t PROGMEM combo_tab[]  = {KC_W, KC_L, COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(combo_pgup, KC_PGUP),
@@ -14,4 +15,5 @@ combo_t key_combos[] = {
     COMBO(combo_end,  KC_END),
     COMBO(combo_vdl, LGUI(LCTL(KC_LEFT))),
     COMBO(combo_vlr,  LGUI(LCTL(KC_RGHT))),
+    COMBO(combo_tab,  KC_TAB),
 };
